@@ -30,7 +30,7 @@ body {
     justify-content: center;
 }
 
-.card {
+main {
     background-color: var(--card-color);
     background-image: url(images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
@@ -86,3 +86,19 @@ body {
     align-self: center;
 }
 
+.card-image {
+    position: relative;
+}
+
+.body-image {
+    background: url(images/illustration-woman-online-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 180% center;
+    height: 100%;
+}
+
+.box-image {
+    position: absolute;
+    top: 42%;
+    left: -22%;
+}
