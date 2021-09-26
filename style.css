@@ -121,13 +121,13 @@ main {
 
 @media (max-width: 950px) {
     main {
-      height: 550px;
-      width: 360px;
+      height: 590px;
+      width: 380px;
       grid-template-columns: 1fr;
       grid-template-rows: 120px 1fr;
       grid-gap: 0.5rem;
       position: relative;
-      padding: 1rem;
+      padding: 3.5rem;
     }
 
     .card-image {
