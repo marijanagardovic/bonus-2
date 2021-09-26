@@ -5,7 +5,7 @@ this.addEventListener("DOMContentLoaded", () =>{
         if(question.parentNode.classList.contains("active")){
             question.parentNode.classList.toggle("active")
         }
-    else{
+    else {
     questions.forEach(question => question.parentNode.classList.remove("active"))
     question.parentNode.classList.add("active")
         }
